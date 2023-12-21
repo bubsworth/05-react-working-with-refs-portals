@@ -1,4 +1,4 @@
-import { forwardRef, useImperativeHandle } from "react";
+import { forwardRef, useRef, useImperativeHandle } from "react";
 
 const ResultModal = forwardRef(function ResultModal(
   { result, targetTime },
